@@ -1,10 +1,16 @@
 {
   "name": "URLCopy",
   "version": "1.0",
-  "description": "Chrome extension to copy current tab url with a click",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+  "description": "Chrome extension to copy current tab url and title with a click",
+  "author": "Mohit Khare",
+  "browser_action": {
+    "default_icon": "icons/extension_icon-64.png",
+    "default_popup": "popup.html",
+    "default_title": "URLCopy"
   },
+  "icons": {
+    "64": "icons/extension_icon-64.png"
+  },
+  "permissions": ["tabs", "clipboardRead", "clipboardWrite"],
   "manifest_version": 2
 }

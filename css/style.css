@@ -1,0 +1,64 @@
+body {
+  width: 150px;
+  margin: 10px;
+  color: rgb(230, 203, 203) 0;
+}
+button {
+  font-size: 20px;
+  text-align: center;
+}
+.url {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+.main {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+#credits {
+  display: inline-block;
+  color: rgb(119, 119, 119);
+  padding: 1em;
+  font-size: 1em;
+}
+
+#credits:hover {
+  color: blue;
+}
+
+button {
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  height: 30px;
+  min-width: 120px;
+  background: #fdcfcf;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: 0 5px 0px #fdcfcf;
+  border-bottom: 2px solid #fdcfcf;
+}
+button:hover {
+  background: #d32f2f;
+  color: #fff;
+  box-shadow: 0 4px 1px #d32f2f;
+  border-bottom: 2px solid #d32f2f;
+  transition: all 0.1s ease-in;
+}
+button:active {
+  transform: translateY(4px);
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
