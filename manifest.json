@@ -1,0 +1,10 @@
+{
+  "name": "URLCopy",
+  "version": "1.0",
+  "description": "Chrome extension to copy current tab url with a click",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
