@@ -1,7 +1,7 @@
 # URLcopy
 
 <p align="center">
-    <img src = "https://raw.githubusercontent.com/mkfeuhrer/urlcopy/master/screenshots/urlcopy.png">
+    <img src = "https://raw.githubusercontent.com/mkfeuhrer/urlcopy/master/screenshots/urlcopyv1.png">
 </p>
 
 A Simple Chrome extension to copy current tab url and title with a click. This is out of frustation of copy pasting URLs from chrome tab.
