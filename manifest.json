@@ -8,6 +8,9 @@
     "default_popup": "popup.html",
     "default_title": "URLCopy"
   },
+  "background":{
+    "scripts":["background.js"]
+  },
   "icons": {
     "64": "icons/extension_icon-64.png"
   },
